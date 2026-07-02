@@ -27,7 +27,10 @@
             if-layers = <1 2>;
             then-layer = <3>;
         };
-    };
+    }; 
+
+	//TODO prefix layer: https://getreuer.info/posts/keyboards/macros3/index.html#prefixing-layer 
+	// and the google.com macro
 
     keymap {
         compatible = "zmk,keymap";
