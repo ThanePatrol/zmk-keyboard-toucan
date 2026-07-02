@@ -35,10 +35,10 @@
         base {
             display-name = "BASE";
             bindings = <
-                &kp TAB   &kp Q &kp W &kp E &kp R &kp T       &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-                &kp ESC &kp A &kp S &kp D &hm LCTRL F &kp G   &kp H &hm LCTRL J  &kp K     &kp L   &kp SEMI &kp SQT
-                &kp LSHFT &kp Z &kp X &kp C &kp V &kp B       &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &hm LGUI BSLH 
-                                &kp RET  &mo 1 &kp SPACE      &kp BSPC &mo 2 &kp RALT
+                &kp TAB   &kp Q &kp W    &kp E &kp R       &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
+                &kp ESC   &kp A &kp S    &kp D &hm LCTRL F &kp G   &kp H &hm LCTRL J  &kp K     &kp L   &kp SEMI &kp SQT
+                &kp LSHFT &kp Z &kp X    &kp C &kp V       &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &hm LGUI BSLH
+                                &kp RET  &mo 1 &kp SPACE                 &kp BSPC &mo 2 &kp RALT
             >;
         };
 
@@ -46,7 +46,7 @@
             display-name = "NAV";
             bindings = <
                 &kp TAB     &kp N1          &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-                &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
+                &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &hm HOME LEFT &hm PAGE_DOWN DOWN &hm PAGE_UP UP &hm END RIGHT &trans &trans
                 &kp LSHFT   &studio_unlock  &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
                                                 &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
             >;
