@@ -25,7 +25,7 @@
     // https://zmk.dev/docs/keymaps/behaviors/macros
     macros { 
       goog: goog { // Enters google.com 
-        compatible = "zmk,behaviour-macro"; 
+        compatible = "zmk,behavior-macro"; 
         #binding-cells = <0>; 
         bindings = <&macro_tap &kp G &kp O &kp O &kp G &kp L &kp E &kp DOT &kp C &kp O &kp M>;
       };
